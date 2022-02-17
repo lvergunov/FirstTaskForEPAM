@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="HandlerFields.cs" />
+    <Compile Remove="IPainting.cs" />
+    <Compile Remove="ObjectTranslator.cs" />
+    <Compile Remove="PaintingComparer.cs" />
+    <Compile Remove="PaintingInExhibitionHallEx.cs" />
+    <Compile Remove="PaintingInStoreroomEx.cs" />
+    <Compile Remove="PaintingsComparer.cs" />
+    <Compile Remove="SearcherBase.cs" />
+    <Compile Remove="Translator.cs" />
+  </ItemGroup>
+
+</Project>
